@@ -16,21 +16,21 @@
     <div class="page-wrapper">
         <div class="page-content--bge5">
             <div class="container">
-                <div class="login-wrap">
+                <div class="login-wrap" style="padding: 0px;">
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                                <img src="images/icon/logo.png" alt="CoolAdmin">
+                                <img src="images/icon/itae.png" alt="CoolAdmin">
                             </a>
                         </div>
                         <div class="login-form">
                             <form action="validation.php" method="post">
                                 <div class="form-group">
-                                    <label for="usuario">Usuario :</label>
-                                    <input type="email" id="usuario" class="au-input au-input--full" name="usuario" placeholder="Usuario" autofocus="on" autocomplete="off" required tabindex="1">
+                                    <label for="usuario">Usuario:</label>
+                                    <input type="text" id="usuario" class="au-input au-input--full" name="usuario" placeholder="Usuario" autofocus="on" autocomplete="off" required tabindex="1">
                                 </div>
                                 <div class="form-group">
-                                    <label for="password">Contraseña</label>
+                                    <label for="password">Contraseña:</label>
                                     <input type="password" id="password" class="au-input au-input--full" name="password" placeholder="Contraseña" autocomplete="off" required tabindex="2">
                                 </div>
                                 <div class="login-checkbox">
@@ -38,7 +38,7 @@
                                         <input type="checkbox" name="remember" tabindex="3">Recordarme
                                     </label>
                                     <label>
-                                        <a href="#" tabindex="4">Olvide mi contraseña</a>
+                                        <a href="#" tabindex="4">Olvidé mi contraseña</a>
                                     </label>
                                 </div>
                                 <button class="au-btn au-btn--block au-btn--blue m-b-20" type="submit" tabindex="5">Ingresar</button>
