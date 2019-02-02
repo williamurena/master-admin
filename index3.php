@@ -8,7 +8,7 @@
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
     <!-- Title Page-->
-    <title>Dashboard 3</title>
+    <title>Iniciar de Sesión</title>
     <!-- Fontfaces CSS-->
     <?php include_once('settings/head.php');?>
 </head>
